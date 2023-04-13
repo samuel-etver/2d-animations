@@ -26,12 +26,12 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.89263468"
-     inkscape:cx="320.95997"
+     inkscape:cx="47.051723"
      inkscape:cy="268.86699"
      inkscape:window-width="1659"
      inkscape:window-height="1205"
-     inkscape:window-x="2084"
-     inkscape:window-y="59"
+     inkscape:window-x="1512"
+     inkscape:window-y="64"
      inkscape:window-maximized="0"
      inkscape:current-layer="layer1" />
   <defs
@@ -104,6 +104,19 @@
          stdDeviation="0.098742317"
          id="feGaussianBlur4067" />
     </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter830"
+       x="-0.066384251"
+       y="-0.066384251"
+       width="1.1327685"
+       height="1.1327685">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.1064042"
+         id="feGaussianBlur832" />
+    </filter>
   </defs>
   <g
      inkscape:label="Layer 1"
@@ -111,13 +124,22 @@
      id="layer1">
     <g
        id="g4094"
-       transform="translate(0.88922156,2.0748503)">
+       transform="translate(0.88922156,2.0748503)"
+       inkscape:label="Pacman">
+      <circle
+         style="opacity:0.89719626;fill:#000000;fill-opacity:1;stroke-width:0.51806;filter:url(#filter830)"
+         id="circle274"
+         r="20"
+         cy="27.855539"
+         cx="28.101095"
+         inkscape:label="Shadow" />
       <circle
          style="opacity:1;fill:url(#radialGradient927);fill-opacity:1;stroke-width:0.51806"
          id="path234"
          r="20"
          cy="27.855539"
-         cx="28.101095" />
+         cx="28.101095"
+         inkscape:label="Head" />
       <g
          id="g4059"
          transform="translate(-20.896707,-1.4820359)"

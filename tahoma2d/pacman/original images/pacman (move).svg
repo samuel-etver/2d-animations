@@ -7,7 +7,7 @@
    viewBox="0 0 210 297"
    version="1.1"
    id="svg5"
-   sodipodi:docname="pacman.svg"
+   sodipodi:docname="pacman (move).svg"
    inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -26,13 +26,13 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.63118804"
-     inkscape:cx="407.96084"
-     inkscape:cy="300.22749"
-     inkscape:window-width="1659"
-     inkscape:window-height="1042"
-     inkscape:window-x="245"
-     inkscape:window-y="0"
-     inkscape:window-maximized="0"
+     inkscape:cx="101.39609"
+     inkscape:cy="302.60396"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="1272"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
      inkscape:current-layer="layer1" />
   <defs
      id="defs2">
@@ -236,7 +236,7 @@
     <g
        id="g438"
        transform="translate(-0.6647348,2.9640721)"
-       inkscape:label="Pacman01">
+       inkscape:label="01">
       <path
          style="opacity:0.897196;fill:#000000;fill-opacity:1;stroke-width:0.51806;filter:url(#filter830)"
          id="circle428"
@@ -285,7 +285,7 @@
     <g
        id="g1523"
        transform="translate(51.308233,2.9640721)"
-       inkscape:label="Pacman02">
+       inkscape:label="02">
       <path
          style="opacity:0.897196;fill:#000000;fill-opacity:1;stroke-width:0.51806;filter:url(#filter830)"
          id="path1513"
@@ -334,7 +334,7 @@
     <g
        id="g1537"
        transform="translate(102.44856,2.9640721)"
-       inkscape:label="Pacman03">
+       inkscape:label="03">
       <path
          style="opacity:0.897196;fill:#000000;fill-opacity:1;stroke-width:0.51806;filter:url(#filter830)"
          id="path1527"
@@ -383,7 +383,7 @@
     <g
        id="g1553"
        transform="translate(154.7688,2.9640721)"
-       inkscape:label="Pacman04">
+       inkscape:label="04">
       <path
          style="opacity:0.897196;fill:#000000;fill-opacity:1;stroke-width:0.51806;filter:url(#filter830)"
          id="path1543"
@@ -432,7 +432,7 @@
     <g
        id="g1567"
        transform="translate(-0.29279847,68.215784)"
-       inkscape:label="Pacman05">
+       inkscape:label="05">
       <path
          style="opacity:0.897196;fill:#000000;fill-opacity:1;stroke-width:0.51806;filter:url(#filter830)"
          id="path1557"
@@ -481,7 +481,7 @@
     <g
        id="g1114"
        transform="translate(51.626438,68.215784)"
-       inkscape:label="Pacman06">
+       inkscape:label="06">
       <path
          style="opacity:0.897196;fill:#000000;fill-opacity:1;stroke-width:0.51806;filter:url(#filter830)"
          id="path1104"
@@ -530,7 +530,7 @@
     <g
        id="g1745"
        transform="translate(102.73666,68.215784)"
-       inkscape:label="Pacman07">
+       inkscape:label="07">
       <path
          style="opacity:0.897196;fill:#000000;fill-opacity:1;stroke-width:0.51806;filter:url(#filter830)"
          id="path1735"
@@ -579,7 +579,7 @@
     <g
        id="g1848"
        transform="translate(154.95179,68.215784)"
-       inkscape:label="Pacman08">
+       inkscape:label="08">
       <path
          style="opacity:0.897196;fill:#000000;fill-opacity:1;stroke-width:0.51806;filter:url(#filter830)"
          id="path1838"
@@ -628,7 +628,7 @@
     <g
        id="g1862"
        transform="translate(-0.13445969,132.3508)"
-       inkscape:label="Pacman09">
+       inkscape:label="09">
       <path
          style="opacity:0.897196;fill:#000000;fill-opacity:1;stroke-width:0.51806;filter:url(#filter830)"
          id="path1852"
@@ -677,7 +677,7 @@
     <g
        id="g1876"
        transform="translate(51.747114,132.3508)"
-       inkscape:label="Pacman10">
+       inkscape:label="10">
       <path
          style="opacity:0.897196;fill:#000000;fill-opacity:1;stroke-width:0.51806;filter:url(#filter830)"
          id="path1866"
@@ -726,7 +726,7 @@
     <g
        id="g4094"
        transform="translate(102.83265,132.3508)"
-       inkscape:label="Pacman11">
+       inkscape:label="11">
       <circle
          style="opacity:0.897196;fill:#000000;fill-opacity:1;stroke-width:0.51806;filter:url(#filter830)"
          id="circle274"

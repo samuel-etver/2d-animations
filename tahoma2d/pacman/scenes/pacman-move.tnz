@@ -1,4 +1,4 @@
-<tnz framecount="0" version="71.1">
+<tnz framecount="19" version="71.1">
   <generator>
     "Tahoma2D 1.3.1"
   </generator>
@@ -37,7 +37,7 @@
           24 
         </fps>
         <path>
-          "+outputs\\.tif"
+          "+outputs\\.spritesheet"
         </path>
         <bpp>
           32 
@@ -46,7 +46,7 @@
           0 
         </multimedia>
         <threadsIndex>
-          2 
+          0 
         </threadsIndex>
         <maxTileSizeIndex>
           0 
@@ -70,6 +70,20 @@
           25 25 
         </timestretch>
         <formatsProperties>
+          <formatProperties ext="spritesheet">
+            <property name="Format" type="enum" value="Grid">
+              <item value="Grid"/>
+              <item value="Vertical"/>
+              <item value="Horizontal"/>
+              <item value="Individual"/>
+              </property>
+            <property max="100" min="0" name="Top Padding" type="int" value="0"/>
+            <property max="100" min="0" name="Bottom Padding" type="int" value="0"/>
+            <property max="100" min="0" name="Left Padding" type="int" value="0"/>
+            <property max="100" min="0" name="Right Padding" type="int" value="0"/>
+            <property max="100" min="1" name="Scale" type="int" value="100"/>
+            <property name="Trim Empty Space" type="bool" value="true"/>
+            </formatProperties>
           <formatProperties ext="tif">
             <property name="Byte Ordering" type="enum" value="IBM PC">
               <item value="IBM PC"/>
@@ -114,7 +128,7 @@
         </output>
       <output name="preview">
         <range>
-          0 -1 
+          0 18 
         </range>
         <step>
           1 
@@ -351,15 +365,66 @@
     </properties>
   <levelSet>
     <levels>
-      </levels>
+      <level id='1'>
+        A 
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\A..png"
+        </path>
+        
+      </level>
+      
+    </levels>
     <folder name="Cast" type="default">
+      <levels>
+        <level id='1'/>
+      </levels>
       </folder>
     <folder name="Audio">
       </folder>
     </levelSet>
   <xsheet>
     <columns>
-      </columns>
+      <levelColumn id='2'>
+        
+        <status>
+          0 
+        </status>
+        <cells>
+          <cell>
+            0 10 <level id='1'/>0001 1 
+          </cell>
+          <cell>
+            10 9 <level id='1'/>0009 -1 
+          </cell>
+          </cells>
+        <fx>
+          <Toonz_columnFx id='3'>
+            
+            <params>
+              </params>
+            <ports>
+              </ports>
+            <numberId>
+              0 
+            </numberId>
+            <name>
+              LevelColumn 
+            </name>
+            <fxId>
+              "" 
+            </fxId>
+            <opened>
+              0 
+            </opened>
+            
+          </Toonz_columnFx>
+          
+        </fx>
+        
+      </levelColumn>
+      
+    </columns>
     <pegbars>
       <pegbar activeboth="yes" id="Camera1">
         <parent handle="B" id="None" parentHandle="B">
@@ -437,13 +502,52 @@
           1.234e+09 5.678e+09 
         </nodePos>
         </pegbar>
+      <pegbar id="Col1">
+        <parent handle="B" id="Table" parentHandle="B">
+          </parent>
+        <name>
+          A 
+        </name>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          0 0 0 0 
+        </center>
+        <status>
+          0 
+        </status>
+        <sx>
+          <default>
+            1 
+          </default>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          </sc>
+        <nodePos>
+          1.234e+09 5.678e+09 
+        </nodePos>
+        </pegbar>
       <grid_dimension>
         1 
       </grid_dimension>
       </pegbars>
     <fxnodes>
+      <terminal>
+        <fxnode>
+          <Toonz_columnFx id='3'/>
+        </fxnode>
+        </terminal>
       <xsheet>
-        <Toonz_xsheetFx id='1'>
+        <Toonz_xsheetFx id='4'>
           
           <params>
             </params>
@@ -466,20 +570,20 @@
         
       </xsheet>
       <output>
-        <Toonz_outputFx id='2'>
+        <Toonz_outputFx id='5'>
           
           <params>
             </params>
           <ports>
             <source>
-              <Toonz_xsheetFx id='1'/>
+              <Toonz_xsheetFx id='4'/>
             </source>
             </ports>
           <numberId>
             0 
           </numberId>
           <name>
-            Output 
+            OutputFx 
           </name>
           <fxId>
             "" 
@@ -496,4 +600,9 @@
       </grid_dimension>
       </fxnodes>
     </xsheet>
+  <history>
+    "| #    DATE:       Time:   MACHINE:    USER:           |"
+    "| #1   14 апр 23   19:54   DESKTOP-DB1FSam             |"
+    "| #2   14 апр 23   23:58   DESKTOP-DB1FSam             |"
+  </history>
   </tnz>

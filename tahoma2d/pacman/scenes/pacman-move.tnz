@@ -37,7 +37,7 @@
           24 
         </fps>
         <path>
-          "+outputs\\.spritesheet"
+          "+outputs\\.mp4"
         </path>
         <bpp>
           32 
@@ -70,6 +70,10 @@
           25 25 
         </timestretch>
         <formatsProperties>
+          <formatProperties ext="mp4">
+            <property max="100" min="1" name="Quality" type="int" value="90"/>
+            <property max="100" min="1" name="Scale" type="int" value="25"/>
+            </formatProperties>
           <formatProperties ext="spritesheet">
             <property name="Format" type="enum" value="Grid">
               <item value="Grid"/>
@@ -605,5 +609,7 @@
     "| #1   14 апр 23   19:54   DESKTOP-DB1FSam             |"
     "| #2   14 апр 23   23:58   DESKTOP-DB1FSam             |"
     "| #3   15 апр 23   17:29   DESKTOP-DB1FSam             |"
+    "| #4   15 апр 23   17:47   DESKTOP-DB1FSam             |"
+    "| #5   15 апр 23   18:12   DESKTOP-DB1FSam             |"
   </history>
   </tnz>

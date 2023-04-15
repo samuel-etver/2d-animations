@@ -1,4 +1,4 @@
-<tnz framecount="19" version="71.1">
+<tnz framecount="18" version="71.1">
   <generator>
     "Tahoma2D 1.3.1"
   </generator>
@@ -128,7 +128,7 @@
         </output>
       <output name="preview">
         <range>
-          0 18 
+          0 17 
         </range>
         <step>
           1 
@@ -395,7 +395,7 @@
             0 10 <level id='1'/>0001 1 
           </cell>
           <cell>
-            10 9 <level id='1'/>0009 -1 
+            10 8 <level id='1'/>0009 -1 
           </cell>
           </cells>
         <fx>
@@ -604,5 +604,6 @@
     "| #    DATE:       Time:   MACHINE:    USER:           |"
     "| #1   14 апр 23   19:54   DESKTOP-DB1FSam             |"
     "| #2   14 апр 23   23:58   DESKTOP-DB1FSam             |"
+    "| #3   15 апр 23   17:29   DESKTOP-DB1FSam             |"
   </history>
   </tnz>
